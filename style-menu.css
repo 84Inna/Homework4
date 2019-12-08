@@ -1,0 +1,112 @@
+body { 
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.main-memu__all {
+  display: flex;
+  position: relative;
+  background: rgb(43, 154, 245);
+  justify-content: center;
+}
+.top-menu > a {
+  height: 20px;
+  padding: 10px;
+  display: flex;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.top-menu a:hover {
+  background: rgb(197, 196, 196);
+  color: rgb(93, 96, 97);
+}
+.second {
+  display: none;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: absolute;
+  letter-spacing: 1px;
+}
+
+.second li a {
+  height: 20px;
+  display:flex;
+  justify-content: center;
+  padding: 8px 6px;
+  text-align: center;
+  color: rgb(93, 96, 97);
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.second a:hover {
+  background: rgb(114, 114, 116);
+  color: rgb(241, 238, 238);
+
+}
+.main-memu__all li:hover .second {
+  display: flex;
+  position: absolute;
+  padding: 8px;
+  background:rgb(197, 196, 196);;
+  box-shadow: 2px 1px rgba(66, 71, 75, 0.623);
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+}
+
+.Pagination {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding: 5px 8px;
+  cursor: pointer;
+}
+
+.Pagination-buttons {
+  border: 1px solid gainsboro;
+  padding: 8px 10px;
+  margin: 5px;
+  background: rgb(243, 244, 247);
+  border-radius: 10px;
+}
+.Pagination-buttons:hover {
+  background: rgb(191, 191, 231);
+}
+
+.Pagination-buttons a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(106, 83, 168);
+}
+.Pagination-buttons a:hover {
+  background: rgb(191, 191, 231);
+  color: white;
+}
+
+.Pagination-buttons__nav {
+  padding: 15px 16px;
+}
+
+.Pagination-buttons__nav a:hover {
+  background: rgb(191, 191, 231);
+  color: white;
+}
+
+.Pagination-buttons__nav a {
+  border: 1px solid gainsboro;
+  text-transform: uppercase;
+  font-weight: bold;
+  color:  rgb(131, 95, 231);
+  font-size: 13px;
+}
+
